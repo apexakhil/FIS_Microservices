@@ -16,11 +16,11 @@ spring:
       - id: employeeModule
         uri: http://localhost:8085/
         predicates:
-        - Path=/employee/**
+        - Path=/employees/**
       - id: userModule
         uri: http://localhost:8086/
         predicates:
-        - Path=/accounts/**
+        - Path=/users/**
 
 
 
